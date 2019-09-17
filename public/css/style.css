@@ -1,0 +1,427 @@
+@font-face {
+    font-family: 'HoneyScript-light';
+  
+    src: 
+         url('../fonts/HoneyScript-light.ttf')  format('truetype'); /* Safari, Android, iOS */
+         
+  }
+
+  @font-face {
+    font-family: 'HoneyScript-SemiBold';
+    src:
+         url('../fonts/HoneyScript-SemiBold.ttf')  format('truetype'); /* Safari, Android, iOS */
+      
+  }
+
+  @font-face {
+    font-family: 'SignPainter-HouseScript';
+    src:
+         url('../fonts/SignPainter-HouseScript.ttf')  format('truetype'); /* Safari, Android, iOS */
+      
+  }
+
+  .bg-primary{
+      background: #a341a3 !important;
+  }
+
+  .btn-primary{
+      background: #448ccb;
+      border-radius: 0;
+  }
+
+  body{
+      font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+  .form-control{
+      border-radius: 0;
+  }
+
+.navbar{
+    background: #fff;
+    padding: 0.5rem 2rem;
+    border-bottom: #fff 1px solid;
+    box-shadow: 0 2px 2px 1px rgba(0,0,0, 0.1);
+}
+
+.navbar a.navbar-brand{
+    font-size: 2.5rem;
+    align-self: center;
+    font-weight: 900;
+    letter-spacing: 8px;
+    color: #448ccb;
+    font-family: 'SignPainter-HouseScript', cursive;
+    cursor: pointer;
+}
+
+.navbar a.navbar-brand:hover{
+    color: #448ccb;
+}
+
+
+
+.navbar .navbar-nav .nav-item{
+    margin-left: 2.5rem;
+}
+
+.navbar .navbar-nav .nav-item .nav-link{
+    font-weight: 600;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #fff;
+    color: #448ccb;
+    text-align: center;
+    padding:0.5rem 0rem;
+    letter-spacing: 2px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color: #a341a3;
+}
+
+.navbar .navbar-nav .nav-item .highlight{
+    color: #a341a3;
+}
+
+.navbar .navbar-toggler{
+    background: #a341a3;
+    color: #fff;
+    border-radius: 0;
+    padding: 0.5rem 1rem;
+    box-shadow: 0;
+    outline:none;
+}
+
+
+
+@media only screen and (max-width : 768px) {
+    .navbar{
+        padding: 1rem;
+        
+    }
+    .navbar a.navbar-brand{
+        font-size: 1.5rem;
+        
+    }
+
+    .navbar .navbar-collapse{
+        padding: 2rem;
+    }
+
+    .navbar .navbar-nav .nav-item{
+        margin-left: 0;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link{
+       
+        padding: 1rem 0;
+    }
+
+   
+}
+
+.jumbotron{
+    background-image: url("../img/banner.jpg") center center no-repeat;
+    background-size: cover;
+    background-position-y: 3rem;
+    background-position-x: center;
+   
+    height: 795px; 
+    margin:0;
+}
+
+.jumbotron-blog{
+    background: url("../img/blog.jpg") center center no-repeat;
+    background-size: cover;
+    background-position-y: 3rem;
+    background-position-x: center;
+}
+
+
+
+.jumbotron .row{
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbotron .row button{
+    margin-top: 18rem;
+    margin-left: 8rem;
+    background: #a341a3;
+    border: #a341a3;
+    border-radius: 0;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    padding: 1rem 2rem;
+    box-shadow: -2px 2px 2px 1px rgba(0,0,0, 0.2);
+}
+
+.jumbotron .row .paypal-btn{
+    margin-top: 23rem;
+    margin-left: 5rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+   
+    .jumbotron{
+        background: url("../img/banner.jpg") 0 0 no-repeat;
+        background-size: cover;
+       
+        background-position-x: -50px;
+        background-position-y: 40px;
+        height: 450px; 
+        margin:0;
+    }
+
+    
+    .jumbotron-blog{
+        background: url("../img/blog.jpg") center center no-repeat;
+        background-size: cover;
+        background-position-y: 3rem;
+        background-position-x: center;
+    }
+
+    .jumbotron .row .paypal-btn{
+        width: 160px;
+        margin-top: 20rem;
+        margin-left: 5rem;
+    }
+
+    .jumbotron .row .paypal-btn input{
+      
+        width: 160px;
+    }
+}
+
+.excerpt{
+    color: #fff;
+    padding: 3rem 0rem;
+   
+    background:#a341a3;
+}
+
+.excerpt h3{
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    margin:0;
+    font-weight: 300;
+}
+
+@media only screen and (max-width: 600px) {
+    .excerpt h3{
+        text-align: center;
+    }
+}
+
+.intro .row{
+    margin:0;
+    padding:2rem 0 3rem 0;
+    justify-content: center;
+    align-items: center;
+    color: #448ccb;
+}
+
+.intro .author{
+    height: 370px;
+    width: 370px;
+    background: url(../img/susans_pic.png) center center no-repeat;
+    margin-top: 2rem;
+}
+
+.intro img{
+    height: 100%;
+    margin: 2rem auto;
+}
+
+.intro .bio{padding: 0 4rem;}
+.intro .bio h4{
+    margin-top: 0rem;
+    font-weight: 700;
+    font-size: 1.65rem;
+}
+
+.intro .bio p{
+    line-height: 2.25rem;
+    font-size: 1.1rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .intro .bio h4{
+        text-align: center;
+    }
+}
+
+.seminars{
+    background: #448ccb;
+    color: #fff;
+    padding: 0 0 2rem 0;
+}
+
+.seminars .row{
+    margin:0;
+    padding:5rem 0;
+    justify-content: left;
+}
+
+.seminars .author{
+    height: 720px;
+    width: 532px;
+    background: url(../img/icing.jpg) center center no-repeat;
+    background-size: cover;
+    margin-right: 5rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .seminars .author{
+        height: 720px;
+        width: 100%;
+        background: url(../img/icing.jpg) center center no-repeat;
+        background-size: cover;
+        margin-right: 0rem;
+    }
+}
+
+.seminars img{
+    height: 100%;
+    margin-top: 1.75rem auto;
+}
+
+.seminars h2{
+    font-weight: 400;
+    letter-spacing: 8px;
+    color: #fff;
+    font-size: 4rem;
+    font-family: 'SignPainter-HouseScript', cursive;
+}
+
+.seminars p{
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: 4px;
+     margin-top: 0.5rem;
+}
+
+.seminars h4{
+    margin-top: 1.5rem;
+    line-height: 3rem;
+    margin-bottom: 3rem;
+    font-weight: 400;
+    font-size: 1.75rem;
+}
+
+.seminars .seminars-body p{
+    margin-top: 0;
+    line-height: 1.5rem;
+    font-size: 1.25rem;
+    font-weight: 400;
+    letter-spacing: 0px;
+}
+
+.seminars button{
+    background: #a341a3;
+    border: #a341a3;
+    border-radius: 0;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    padding: 1rem 2rem;
+    box-shadow: -2px 2px 2px 1px rgba(0,0,0, 0.2);
+    margin-top: 3rem;
+}
+
+.footer{
+    padding: 3rem 0;
+    background: #a341a3;
+}
+
+.footer .row p{
+    margin:0;
+}
+
+.footer .nav-link{
+    color: #fff;
+}
+
+.blog .post a{
+    text-decoration: none;
+    color: #a341a3;
+}
+
+
+
+.blog .post h1{
+    font-family: 'SignPainter-HouseScript', cursive;
+    color: #a341a3;
+    font-weight: 900;
+}
+
+.blog .post  p{
+    color: #448ccb;
+    font-size: 1rem;
+    line-height: 2rem;
+    margin:0;
+    font-weight: 300;
+}
+
+.blog .post  p.details{
+    font-size: 0.8rem;
+}
+
+.blog .post  p span{
+    color:#a341a3;
+}
+
+.blog ul li{
+    color: #448ccb;
+}
+
+
+.contact h2, h4{
+    margin-top: 1.5rem;
+    line-height: 3rem;
+    margin-bottom: 0rem;
+    font-weight: 400;
+    font-size: 1.75rem;
+    color:#a341a3;
+}
+
+.contact p{
+    color: #448ccb;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin:0 0 1rem 0;
+    font-weight: 300;
+}
+
+
+.contact form label{
+    color: #a341a3;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+
+.contact form textarea{
+    min-height: 200px;
+}
+
+.contact button{
+    background: #a341a3;
+    border: #a341a3;
+    border-radius: 0;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    padding: 1rem 2rem;
+    box-shadow: -2px 2px 2px 1px rgba(0,0,0, 0.2);
+    margin-top: 3rem;
+}
+
+.contact form button:hover{
+    background: #448ccb;
+}
